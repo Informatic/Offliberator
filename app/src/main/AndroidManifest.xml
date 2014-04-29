@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.tastycode.offliberator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+
+        <activity
+            android:name="pl.tastycode.offliberator.ShareActivity"
+            android:label="Offliberty"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <!-- @FIXME: Can URL be contained in an intent of any other type? -->
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

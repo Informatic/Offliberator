@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Offliberator</string>
+    <string name="msg_no_url">No content to scrape, sorry!</string>
+    <string name="fmt_target_url">http://offliberty.com/#%s</string>
+
+</resources>
